@@ -48,7 +48,7 @@ public class Customer implements CustomerPrototype {
 
     @Override
     public CustomerPrototype clone() {
-        return new Customer(customerId,firstName,lastName,gender,dateOfBirth,email,phoneNumber,address,city,state,postalCode,country,username,password,registrationDate,status,customerType,totalOrders,totalSpent,notes);
+        return new Customer(customerId, firstName, lastName, gender, dateOfBirth, email, phoneNumber, address, city, state, postalCode, country, username, password, registrationDate, status, customerType, totalOrders, totalSpent, notes);
     }
 
     @Override
@@ -67,7 +67,6 @@ public class Customer implements CustomerPrototype {
                 ", postalCode='" + postalCode + '\'' +
                 ", country='" + country + '\'' +
                 ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
                 ", registrationDate='" + registrationDate + '\'' +
                 ", status='" + status + '\'' +
                 ", customerType='" + customerType + '\'' +
